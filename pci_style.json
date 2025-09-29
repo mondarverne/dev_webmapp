@@ -33,7 +33,8 @@
     "source": "pci",
     "source-layer": "commune",
     "paint": {
-      "line-color": "#323232"
+      "line-color": "#323232",
+      "line-width": 1
       },
     "minzoom": 10
     },
@@ -175,6 +176,7 @@
     }
   ]
 }
+
 
 
 
