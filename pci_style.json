@@ -121,8 +121,8 @@
       "source": "pci",
       "source-layer": "feuille",
       "paint": {
-        "line-color": "#3a7d97",
-        "line-width": 1
+        "line-color": "#37798f",
+        "line-width": 3
       },
       "minzoom": 14,
       "maxzoom": 24,
@@ -144,7 +144,7 @@
         "text-size": 14
       },
       "paint": {
-        "text-color": "#3a7d97",
+        "text-color": "#37798f",
         "text-halo-color": "#ffffff",
         "text-halo-width": 1
       },
@@ -176,6 +176,7 @@
     }
   ]
 }
+
 
 
 
