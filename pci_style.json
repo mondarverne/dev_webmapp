@@ -78,6 +78,7 @@
       "type": "fill",
       "source": "pci",
       "source-layer": "batiment",
+      "minzoom": 10,
       "paint": {
         "fill-color": "#61696b"
       }
@@ -192,6 +193,7 @@
     }
   ]
 }
+
 
 
 
