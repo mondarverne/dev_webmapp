@@ -77,10 +77,11 @@
       "type": "fill",
       "source": "pci",
       "source-layer": "batiment",
-      "minzoom": 11,
+      "minzoom": 10,
+      "maxzoom" : 17,
       "paint": {
-        "fill-color": "#dfccff",
-        "fill-opacity": 0.4
+        "fill-color": "#61696b",
+        "fill-opacity": 1
       }
     },
     {
@@ -88,9 +89,13 @@
       "type": "line",
       "source": "pci",
       "source-layer": "batiment",
-      "paint": {"line-color": "#b580ff"},
+      "paint": {
+        "line-color": "#61696b",
+        "line-width" : 0.2,
+      },
       "layout": {"line-join": "bevel"},
-      "minzoom": 17
+      "minzoom": 10,
+      "maxzoom" : 17
     },
     {
       "id": "batiment-leger",
@@ -185,7 +190,7 @@
       "maxzoom": 21,
       "layout": {
         "text-field": "{numero}",
-        "text-size": 14,
+        "text-size": 12,
         "text-anchor": "center",
         "text-keep-upright": true,
         "text-max-angle": 45,
@@ -202,6 +207,7 @@
     }
   ]
 }
+
 
 
 
