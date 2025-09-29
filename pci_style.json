@@ -34,7 +34,7 @@
     "source-layer": "commune",
     "paint": {
       "line-color": "#323232",
-      "line-width": 1
+      "line-width": 0.8
       },
     "minzoom": 10
     },
@@ -123,7 +123,8 @@
       "source-layer": "feuille",
       "paint": {
         "line-color": "#323232",
-        "line-width": 2      },
+        "line-width": 1
+      },
       "minzoom": 14,
       "maxzoom": 24,
       "layout": {
@@ -176,6 +177,7 @@
     }
   ]
 }
+
 
 
 
