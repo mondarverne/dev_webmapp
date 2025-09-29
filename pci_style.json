@@ -45,7 +45,7 @@
       "source-layer": "commune",
       "layout": {
         "text-field": "{nom_com}",
-        "text-size": 10,
+        "text-size": 11,
         "text-anchor": "center",
         "text-keep-upright": true,
         "text-max-angle": 45,
@@ -67,7 +67,7 @@
       "source-layer": "parcelle",
       "paint": {
         "line-color": "#323232",
-        "line-width": 1
+        "line-width": 0.5
       },
       "layout": {"line-join": "bevel"},
       "minzoom": 12,
@@ -229,5 +229,6 @@
     }
   ]
 }
+
 
 
