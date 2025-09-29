@@ -85,18 +85,6 @@
       }
     },
     {
-      "id": "batiment_line",
-      "type": "line",
-      "source": "pci",
-      "source-layer": "batiment",
-      "paint": {
-        "line-color": "#61696b"
-      },
-      "layout": {"line-join": "bevel"},
-      "minzoom": 10,
-      "maxzoom" : 17
-    },
-    {
       "id": "batiment-leger",
       "type": "fill",
       "source": "pci",
@@ -206,6 +194,7 @@
     }
   ]
 }
+
 
 
 
