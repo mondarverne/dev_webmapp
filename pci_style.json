@@ -79,7 +79,8 @@
       "source-layer": "batiment",
       "maxzoom": 18,
       "paint": {
-        "fill-color": "#61696b"
+        "fill-color": "#61696b",
+        "fill-opacity": 0.8
       }
     },
     {
@@ -115,28 +116,12 @@
       ]
     },
     {
-      "id": "feuille-copy",
-      "type": "line",
-      "source": "pci",
-      "source-layer": "feuille",
-      "paint": {
-        "line-color": "#929292",
-        "line-width": 3
-      },
-      "minzoom": 14,
-      "maxzoom": 24,
-      "layout": {
-        "line-cap": "butt",
-        "line-join": "bevel"
-      }
-    },
-    {
       "id": "feuille",
       "type": "line",
       "source": "pci",
       "source-layer": "feuille",
       "paint": {
-        "line-color": "#ff8000",
+        "line-color": "#3a7d97",
         "line-width": 1
       },
       "minzoom": 14,
@@ -159,9 +144,9 @@
         "text-size": 14
       },
       "paint": {
-        "text-color": "#ff8000",
+        "text-color": "#3a7d97",
         "text-halo-color": "#ffffff",
-        "text-halo-width": 2
+        "text-halo-width": 1
       },
       "minzoom": 14,
       "maxzoom": 16
@@ -191,6 +176,7 @@
     }
   ]
 }
+
 
 
 
