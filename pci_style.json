@@ -27,15 +27,6 @@
         "minzoom": 5,
         "layout": {"line-join": "bevel"}
       },
-      
-        "paint": {
-          "text-color": "#323232",
-          "text-halo-color": "#ffffff",
-          "text-halo-width": 1
-        },
-        "minzoom": 6,
-        "maxzoom": 11
-      },
         {
             "id": "commune",
             "type": "line",
@@ -62,9 +53,9 @@
               ]
             },
             "paint": {
-              "text-color": "#6a00ff",
+              "text-color": "#323232",
               "text-halo-color": "#ffffff",
-              "text-halo-width": 2
+              "text-halo-width": 1
             }
         },
         {
@@ -248,6 +239,7 @@
         }
     ]
 }
+
 
 
 
