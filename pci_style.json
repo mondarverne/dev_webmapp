@@ -77,7 +77,7 @@
       "type": "fill",
       "source": "pci",
       "source-layer": "batiment",
-      "minzoom": 10,
+      "maxzoom": 18,
       "paint": {
         "fill-color": "#61696b"
       }
@@ -105,7 +105,7 @@
       "source-layer": "batiment",
       "minzoom": 18,
       "paint": {
-        "fill-color": "#C17C74",
+        "fill-color": "#61696b",
         "fill-opacity": 0.4
       },
       "filter": [
@@ -171,11 +171,11 @@
       "type": "symbol",
       "source": "pci",
       "source-layer": "localisant",
-      "minzoom": 17,
+      "minzoom": 20,
       "maxzoom": 21,
       "layout": {
         "text-field": "{numero}",
-        "text-size": 12,
+        "text-size": 11,
         "text-anchor": "center",
         "text-keep-upright": true,
         "text-max-angle": 45,
@@ -185,13 +185,14 @@
         ]
       },
       "paint": {
-        "text-color": "#6a00ff",
+        "text-color": "#323232",
         "text-halo-color": "#ffffff",
-        "text-halo-width": 2
+        "text-halo-width": 1
       }
     }
   ]
 }
+
 
 
 
