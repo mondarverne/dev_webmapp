@@ -89,8 +89,7 @@
       "source": "pci",
       "source-layer": "batiment",
       "paint": {
-        "line-color": "#61696b",
-        "line-width" : 0.2
+        "line-color": "#61696b"
       },
       "layout": {"line-join": "bevel"},
       "minzoom": 10,
@@ -206,6 +205,7 @@
     }
   ]
 }
+
 
 
 
