@@ -43,6 +43,7 @@
       "type": "symbol",
       "source": "pci",
       "source-layer": "commune",
+      "maxzoom" : 15,
       "layout": {
         "text-field": "{nom_com}",
         "text-size": 12,
@@ -194,7 +195,7 @@
         "text-max-angle": 45,
         "text-padding": 1,
         "text-font": [
-          "Source Sans Pro Bold Italic"
+          "Calibri"
         ]
       },
       "paint": {
@@ -205,6 +206,7 @@
     }
   ]
 }
+
 
 
 
