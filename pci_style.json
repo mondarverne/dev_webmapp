@@ -70,7 +70,7 @@
         "line-width": 0.3
       },
       "layout": {"line-join": "bevel"},
-      "minzoom": 10
+      "minzoom": 5
     },
     {
       "id": "batiment",
@@ -192,6 +192,7 @@
     }
   ]
 }
+
 
 
 
