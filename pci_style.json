@@ -67,7 +67,7 @@
       "source-layer": "parcelle",
       "paint": {
         "line-color": "#323232",
-        "line-width": 0.5
+        "line-width": 0.3
       },
       "layout": {"line-join": "bevel"},
       "minzoom": 12,
@@ -229,6 +229,7 @@
     }
   ]
 }
+
 
 
 
