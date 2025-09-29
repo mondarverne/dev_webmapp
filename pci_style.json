@@ -23,7 +23,7 @@
         "type": "line",
         "source": "pci",
         "source-layer": "departement",
-        "paint": {"line-color": "#6a00ff"},
+        "paint": {"line-color": "#000000"},
         "minzoom": 5,
         "layout": {"line-join": "bevel"}
       },
@@ -259,3 +259,4 @@
         }
     ]
 }
+
