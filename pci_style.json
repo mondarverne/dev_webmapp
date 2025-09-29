@@ -45,7 +45,7 @@
       "source-layer": "commune",
       "layout": {
         "text-field": "{nom_com}",
-        "text-size": 11,
+        "text-size": 12,
         "text-anchor": "center",
         "text-keep-upright": true,
         "text-max-angle": 45,
@@ -70,28 +70,14 @@
         "line-width": 0.3
       },
       "layout": {"line-join": "bevel"},
-      "minzoom": 12,
-      "maxzoom": 17
-    },
-    {
-      "id": "parcelle",
-      "type": "line",
-      "source": "pci",
-      "source-layer": "parcelle",
-      "paint": {
-        "line-color": "#ff8000",
-        "line-width": 3
-      },
-      "layout": {"line-join": "bevel"},
-      "minzoom": 17,
-      "maxzoom": 21
+      "minzoom": 10,
     },
     {
       "id": "batiment",
       "type": "fill",
       "source": "pci",
       "source-layer": "batiment",
-      "minzoom": 15,
+      "minzoom": 11,
       "paint": {
         "fill-color": "#dfccff",
         "fill-opacity": 0.4
@@ -137,19 +123,6 @@
         "type",
         "Bâtiment en dur"
       ]
-    },
-    {
-      "id": "borne",
-      "type": "circle",
-      "source": "pci",
-      "source-layer": "borne_limite_propriete",
-      "maxzoom": 24,
-      "minzoom": 17,
-      "paint": {
-        "circle-color": "#ff8000",
-        "circle-stroke-color": "#000000",
-        "circle-stroke-width": 1
-      }
     },
     {
       "id": "feuille-copy",
@@ -229,6 +202,7 @@
     }
   ]
 }
+
 
 
 
