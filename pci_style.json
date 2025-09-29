@@ -142,7 +142,7 @@
         "text-font": [
           "Source Sans Pro Bold Italic"
         ],
-        "text-size": 14
+        "text-size": 15
       },
       "paint": {
         "text-color": "#323232",
@@ -177,6 +177,7 @@
     }
   ]
 }
+
 
 
 
