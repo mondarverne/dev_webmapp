@@ -95,7 +95,7 @@
       ],
       "paint": {
         "fill-color": "#DFCCFF",
-        "fill-opacity": 0.4
+        "fill-opacity": 0.5
       }
     },
     {
@@ -171,8 +171,7 @@
       "type": "symbol",
       "source": "pci",
       "source-layer": "localisant",
-      "minzoom": 20,
-      "maxzoom": 21,
+      "minzoom": 18,
       "layout": {
         "text-field": "{numero}",
         "text-size": 11,
@@ -192,6 +191,7 @@
     }
   ]
 }
+
 
 
 
