@@ -91,7 +91,7 @@
       "source-layer": "batiment",
       "paint": {
         "line-color": "#61696b",
-        "line-width" : 0.2,
+        "line-width" : 0.2
       },
       "layout": {"line-join": "bevel"},
       "minzoom": 10,
@@ -207,6 +207,7 @@
     }
   ]
 }
+
 
 
 
