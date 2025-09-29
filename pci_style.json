@@ -122,9 +122,7 @@
       "source-layer": "feuille",
       "paint": {
         "line-color": "#323232",
-        "line-width": 2,
-        "ligne-dasharray": [10,8]
-      },
+        "line-width": 2      },
       "minzoom": 14,
       "maxzoom": 24,
       "layout": {
@@ -177,6 +175,7 @@
     }
   ]
 }
+
 
 
 
