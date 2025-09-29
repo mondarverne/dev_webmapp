@@ -35,7 +35,8 @@
     "source-layer": "commune",
     "paint": {
       "line-color": "#323232"
-      }
+      },
+    "minzoom": 10
     },
     {
       "id": "nom_com",
@@ -44,10 +45,10 @@
       "source-layer": "commune",
       "layout": {
         "text-field": "{nom_com}",
-        "text-size": 14,
+        "text-size": 10,
         "text-anchor": "center",
         "text-keep-upright": true,
-        "text-max-angle": 90,
+        "text-max-angle": 45,
         "text-padding": 1,
         "text-font": [
           "Source Sans Pro Bold Italic"
@@ -65,11 +66,11 @@
       "source": "pci",
       "source-layer": "parcelle",
       "paint": {
-        "line-color": "#ff8000",
+        "line-color": "#323232",
         "line-width": 1
       },
       "layout": {"line-join": "bevel"},
-      "minzoom": 15,
+      "minzoom": 12,
       "maxzoom": 17
     },
     {
@@ -90,7 +91,7 @@
       "type": "fill",
       "source": "pci",
       "source-layer": "batiment",
-      "minzoom": 17,
+      "minzoom": 15,
       "paint": {
         "fill-color": "#dfccff",
         "fill-opacity": 0.4
@@ -228,4 +229,5 @@
     }
   ]
 }
+
 
