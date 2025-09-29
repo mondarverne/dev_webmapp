@@ -174,7 +174,7 @@
       "minzoom": 18,
       "layout": {
         "text-field": "{numero}",
-        "text-size": 11,
+        "text-size": 12,
         "text-anchor": "center",
         "text-keep-upright": true,
         "text-max-angle": 45,
@@ -191,6 +191,7 @@
     }
   ]
 }
+
 
 
 
