@@ -18,15 +18,7 @@
         "delay": 0
     },
     "layers": [
-      {
-        "id": "departement_line",
-        "type": "line",
-        "source": "pci",
-        "source-layer": "departement",
-        "paint": {"line-color": "#000000"},
-        "minzoom": 5,
-        "layout": {"line-join": "bevel"}
-      },
+
       {
         "id": "departement_label",
         "type": "symbol",
@@ -259,4 +251,5 @@
         }
     ]
 }
+
 
